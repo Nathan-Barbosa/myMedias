@@ -1,0 +1,16 @@
+{
+  "name": "hubproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass ./src/scss/index.scss:./public/styles/index.css --watch",
+    "build": "sass ./src/scss/index.scss:./public/styles/index.css --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}
